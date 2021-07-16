@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh(script: 'docker images -a')
+                sh(script: 'ls -l')
             }
         }
         stage('Hello') {
